@@ -1,8 +1,14 @@
 title: Khai Nguyen
-description: Software Engineer
-google_analytics: 
+description: Software Developer
+google_analytics:
 show_downloads: false
-theme: jekyll-theme-minimal
+#theme: minima
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-gems:
-  - jekyll-mentions
+twitter:
+  username: khaister
+author:
+  github: khaister
+
+plugins:
