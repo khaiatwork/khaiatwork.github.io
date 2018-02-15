@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Contact
-permalink: contact
+permalink: /contact/
 ---
 
 khai.nguyen@outlook.com

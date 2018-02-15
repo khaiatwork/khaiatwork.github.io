@@ -1,11 +1,12 @@
 title: Khai Nguyen
 description: Software Developer
+url: https://khai.work
 google_analytics:
 show_downloads: false
 #theme: minima
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
+include: ["_pages"]
 twitter:
   username: khaister
 author:
