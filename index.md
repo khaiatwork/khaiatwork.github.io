@@ -17,15 +17,9 @@ My name is Khai Nguyen. I'm a software engineer/developer, who is specialized in
 
 ## Skills
 
-* Agile Scrum development
-* Object-oriented programming
-* Design pattern
-* Test-driven development
-* Microsoft .NET Framework
-* Microsoft SQL Server
-* SOAP & REST Web API
-* Team Foundation Server
-* Git
+Agile Scrum development | Object-oriented programming | Design pattern | Test-driven development<br/>
+Microsoft .NET Framework | Microsoft SQL Server | SOAP & REST Web API <br/>
+Team Foundation Server | Git
 
 ## Professional Experience
 
@@ -58,8 +52,8 @@ _06/2015_&ndash;_12/2016_
 
 _10/2012_&ndash;_05/2017_
 
-* Data analysis
-* Publication [https://doi.org/10.1093/nar/gkx012](https://doi.org/10.1093/nar/gkx012)
+* Designed and implemented Perl and Python scripts for effective flat-file data analyses
+* Programmed in pair to produce sufficient analysis scripts
 
 ### Instructional Student Assistant
 
@@ -68,6 +62,10 @@ _10/2012_&ndash;_05/2017_
 _01/2013_&ndash;_05/2015_
 
 * Applied communication and teaching expertise to helping students develop effective learning and problem solving skills
+
+## Publication
+
+**Nguyen, Khai K. Q.**, Yessica K. Gomez, Mona Bakhom, Amethyst Radcliffe, Phuc La, Dakota Rochelle, Ji Won Lee, and Eric J. Sorin. "Ensemble simulations: folding, unfolding and misfolding of a high-efficiency frameshifting RNA pseudoknot." _Nucleic Acids Research_, 2017. [doi:10.1093/nar/gkx012](https://doi.org/10.1093/nar/gkx012).
 
 ## Education
 
