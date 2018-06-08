@@ -6,8 +6,19 @@ body {
   font-weight: normal;
 }
 
+.resume {
+  margin: 0 auto;
+  padding: 50px 250px 0 250px;
+}
+
 .resume-section h1 {
+  margin-top: 40px;
   font-size: 20px;
+  border-bottom: 3px black solid;
+}
+
+header h1 {
+	font-size: 28px;
 }
 
 .resume-section .position .title {
@@ -20,4 +31,18 @@ body {
 
 .resume-section .position .time {
   font-size: 14px;
+}
+
+.award {
+	margin-bottom: 12px;
+}
+
+.award .description {
+	font-style: italic;
+}
+
+footer {
+  text-align: center;
+	margin-top: 50px;
+  margin-bottom: 25px;
 }
