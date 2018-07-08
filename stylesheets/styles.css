@@ -1,36 +1,78 @@
 body {
   padding: 0;
   margin: 0;
-  font: 14px/1.5 Helvetica, Arial, sans-serif;
+  font: 16px/1.5 Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0 lightgray;
+  color: #555;
+  margin: 0;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+.latin {
+  font-style: italic;
+}
+
 .resume {
   margin: 0 auto;
-  padding: 50px 250px 0 250px;
+  width: 600px;
 }
 
 .resume-section h1 {
-  margin-top: 40px;
-  font-size: 20px;
-  border-bottom: 3px black solid;
+  margin-top: 48px;
+  font-size: 24px;
+}
+
+#skills ul {
+  columns: 2;
+}
+
+#skills ul li:before {
+  content: "";
+  margin: 0;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resume-section ul li {
+  margin-bottom: 6px;
+}
+
+.resume-section ul li:before {
+  content: "›";
+  margin-left: -15px;
+  margin-right: 10px;
 }
 
 header h1 {
 	font-size: 28px;
 }
 
+.resume-section .position .title-location-duration {
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.resume-section .position .title-location-duration {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .resume-section .position .title {
-  font-size: 18px;
-}
-
-.resume-section .position .employer {
-  font-size: 14px
-}
-
-.resume-section .position .time {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .award {
