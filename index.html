@@ -4,6 +4,7 @@
 <head>
     <title>Khai Nguyen - Hello, World!</title>
     <link rel="stylesheet" href="stylesheets/styles.css" />
+    <meta charset="UTF-8" />
 </head>
 
 <body>
@@ -26,46 +27,61 @@
                     software products from design to launch</li>
             </ul>
         </section>
-        <secion class="resume-section">
+        <secion class="resume-section" id="skills">
             <h1>Skills</h1>
             <ul>
-                <li>Agile Scrum Methodology</li>
-                <li>Microsoft .NET</li>
-                <li>Git VCS &amp; Git Flow branching strategies</li>
-                <li>WPF</li>
-                <li>TeamCity &amp; Octopus Deploy</li>
-                <li>Microsoft SQL Server</li>
+                <li>Object-oriented software engineering</li>
+                <li>Technical problem solving</li>
                 <li>NServiceBus Microservices</li>
+                <li>C#, Java</li>
+                <li>Microsoft .NET (Framework, Core, ASP.NET WebAPI/MVC, WPF)</li>
+                <li>Git &amp; GitFlow</li>
+                <li>Agile Scrum</li>
             </ul>
         </secion>
         <secion class="resume-section">
             <h1>Professional Experience</h1>
             <secion class="position">
-                <div class="title">Software Engineer II</div>
-                <div class="employer">CU Direct Corporation</div>
-                <div class="time">Jan 2017 - Present</div>
+                <section class="title-location-duration">
+                    <div class="title">Software Engineer II</div>
+                    <div class="employer">
+                        <a href="https://www.cudirect.com">CU Direct</a>
+                    </div>
+                    <div class="time">Jan 2017 - Present</div>
+                </section>
                 <section class="responsibilities">
                     <ul>
                         <li>Promoted to Software Engineer II as a result of strengths in product development, project completion,
                             and overall passion to support company growth</li>
-                        <li>Trained team members on using git and git-flow branching strategy</li>
-                        <li>Led a release deployment effort by cordinating teams to get components ready for final deployment</li>
-                        <li>Built NServiceBus microservices that helped efficient cross-system data communications, which contributed
-                            to the successful launch of proprietary car dealer platform</li>
-                        <li>Implemented system services that removed or obfuscated sensitive consumer data to meet Payment Card
-                            Industry Data Security Standard</li>
+                        <li>Oversaw version control system migration from TFVC to Git repositories, including training team members
+                            on using git and git-flow branching strategy and promoting best practices, effectively increased
+                            development productivity and collaboration across multiple teams</li>
+                        <li>Led release deployment effort by coordinating teams to get software products ready for final product
+                            re-lease</li>
+                        <li>Implemented WinNT services that removed/obfuscated sensitive consumer data to meet Payment Card Industry
+                            Data Security Standard</li>
+                        <li>Worked as an Agile Scrum Team member to maintain backend systems for loan and credit data processing</li>
                     </ul>
                 </section>
             </secion>
             <section class="position">
-                <div class="title">Software Developer I</div>
-                <div class="employer">CU Direct Corporation</div>
-                <div class="time">Jun 2015 - Dec 2016</div>
+                <section class="title-location-duration">
+                    <div class="title">Software Developer I</div>
+                    <div class="employer">
+                        <a href="https://www.cudirect.com">CU Direct</a>
+                    </div>
+                    <div class="time">Jun 2015 - Dec 2016</div>
+                </section>
                 <section class="responsibilities">
                     <ul>
-                        <li>Contributed to growing the functionality of proprietary loan originating system software</li>
-                        <li>Assisted in 3rd level support for software issues that arise in production</li>
-                        <li>Designed and improved build &amp; deployment automation process using TeamCity and Octopus Deploy</li>
+                        <li>Contributed to enhancing functionality and fixing bugs for proprietary loan originating system software
+                            by modifying desktop application and various backend services &amp; database objects</li>
+                        <li>Built NServiceBus microservices that provided efficient cross-system message-based communications,
+                            which contributed to the successful launch of proprietary car dealer platform</li>
+                        <li>Implemented REST API for retrieving document resources from backend repository</li>
+                        <li>Assisted in 3rd level support for software issues that arise in production, significantly reducing
+                            backlog bug items</li>
+                        <li>Created &amp; improved build &amp; deployment automation process using TeamCity and Octopus Deploy</li>
                     </ul>
                 </section>
             </section>
@@ -73,9 +89,13 @@
         <section class="resume-section">
             <h1>Other Employment Experience</h1>
             <section class="position">
-                <div class="title">Research Consultant</div>
-                <div class="employer">The Sorin Lab, CSU Long Beach</div>
-                <div class="time">Oct 2012 - May 2017</div>
+                <section class="title-location-duration">
+                    <div class="title">Research Consultant</div>
+                    <div class="employer">
+                        <a href="http://folding.cnsm.csulb.edu">The Sorin Lab</a>
+                    </div>
+                    <div class="time">Oct 2012 - May 2017</div>
+                </section>
                 <section class="responsibilities">
                     <ul>
                         <li>Designed &amp; implemented Perl scripts for analyzing biomolecule simulation data, which resulted
@@ -85,9 +105,12 @@
                 </section>
             </section>
             <secion class="position">
-                <div class="title">Instructional Student Assistant</div>
-                <div class="employer">Learning Assistance Center, CSU Long Beach</div>
-                <div class="time">Jan 2013 - May 2015</div>
+                <section class="title-location-duration">
+                    <div class="title">Instructional Student Assistant</div>
+                    <div class="employer">
+                        <a href="http://www.csulb.edu/lac">LAC</a></div>
+                    <div class="time">Jan 2013 - May 2015</div>
+                </section>
                 <secion>
                     <ul>
                         <li>Helped students develop effective learning skills, problem solving skills in Math, Chemistry, and
@@ -117,15 +140,22 @@
         </section>
         <section class="resume-section">
             <h1>Publication</h1>
-            <section class="publication">Nguyen, Khai K. Q. et al. "Ensemble simulations: folding, unfolding and misfolding of a high-efficiency frameshift-ing
-                RNA pseudoknot." Nucleic Acids Research, 2017. doi:10.1093/nar/gkx012.</section>
+            <section class="publication">Nguyen, Khai K. Q.
+                <span class="latin">et al</span>. "Ensemble simulations: folding, unfolding and misfolding of a high-efficiency frameshift-ing
+                RNA pseudoknot." Nucleic Acids Research, 2017.
+                <a href="https://academic.oup.com/nar/article/45/8/4893/2937937">doi:10.1093/nar/gkx012</a>.</section>
         </section>
         <section class="resume-section">
             <h1>Education</h1>
-            <section class="education">California State University, Long Beach (2015), B.Sc. Biochemistry with minor in Computer Science</section>
+            <section class="education">
+                <a href="https://www.csulb.edu">California State University, Long Beach</a> (2015)
+                <br/> Bachelor of Science
+                <span class="latin">cum laude</span>
+                <br/> Biochemistry with minor in Computer Science
+            </section>
         </section>
         <footer>
-            (c) 2018 Khai Nguyen
+            &copy; 2018 Khai Nguyen
         </footer>
     </article>
 </body>
