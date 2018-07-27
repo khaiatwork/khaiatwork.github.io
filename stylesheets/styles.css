@@ -3,7 +3,16 @@ body {
   margin: 0;
   font: 16px/1.5 Helvetica, Arial, sans-serif;
   color: #555;
+  background-color: #efefef;
   font-weight: normal;
+}
+
+header {
+  font-size: 20px;
+}
+
+#hello {
+  font-size: 48px;
 }
 
 a {
@@ -32,12 +41,21 @@ a:hover {
 }
 
 #skills ul {
-  columns: 2;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#skills ul li {
+  list-style: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
 
 #skills ul li:before {
   content: "";
-  margin: 0;
 }
 
 .resume-section ul {
