@@ -5,7 +5,8 @@ main {
 	color: #0277BD;
 }
 
-.icons-social a {
+.icons-social a,
+footer a {
 	color: #0277BD;
 }
 
