@@ -61,6 +61,10 @@ content > .tagline {
 	font-weight: 100;
 }
 
+content > .content-body ul li {
+	font-family: 'Inconsolata', sans-serif;
+}
+
 .icons-social i {
 	padding: 10px;
 }

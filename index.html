@@ -2,82 +2,82 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Khai Nguyen | Software Development Engineer</title>
+    <title>Khai Nguyen | Software Development Engineer</title>
 
-	<link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="icon" href="/favicon.ico" type="image/png" />
 
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
-	<script>
-		const defaultTheme = 'white-blue';
-		const themePath = 'css/themes/';
-		const themeExt = '.css';
-		const availableThemes = [
-			'indigo-white',
-			'green-white',
-			'red-white',
-			'grey-white',
-			'white-indigo',
-			'white-blue',
-			'white-grey',
-			'white-red',
-			'yellow-black'
-		];
+    <script>
+        const defaultTheme = 'white-blue';
+        const themePath = 'css/themes/';
+        const themeExt = '.css';
+        const availableThemes = [
+            'indigo-white',
+            'green-white',
+            'red-white',
+            'grey-white',
+            'white-indigo',
+            'white-blue',
+            'white-grey',
+            'white-red',
+            'yellow-black'
+        ];
 
-		function selectTheme(themes) {
-			let randomThemeIndex = Math.floor(Math.random() * themes.length);
-			let theme = `${themePath}${themes[randomThemeIndex]}${themeExt}`;
+        function selectTheme(themes) {
+            let randomThemeIndex = Math.floor(Math.random() * themes.length);
+            let theme = `${themePath}${themes[randomThemeIndex]}${themeExt}`;
 
-			return theme;
-		}
+            return theme;
+        }
 
-		function applyTheme(themeUrl) {
-			let link = document.createElement('link');
-			link.rel = 'stylesheet';
-			link.href = themeUrl;
-			document.head.appendChild(link);
-		}
+        function applyTheme(themeUrl) {
+            let link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = themeUrl;
+            document.head.appendChild(link);
+        }
 
-		try {
-			let theme = selectTheme(availableThemes);
-			applyTheme(theme);
-		} catch (error) {
-			applyTheme(defaultTheme);
-			console.error(error);
-		}
-	</script>
+        try {
+            let theme = selectTheme(availableThemes);
+            applyTheme(theme);
+        } catch (error) {
+            applyTheme(defaultTheme);
+            console.error(error);
+        }
+    </script>
 </head>
 
 <body>
-	<main>
-		<content>
-			<div class="intro">Hello, I'm Khai!</div>
-			<div class="tagline">Software Development Engineer</div>
-			
-			<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-			<div class="icons-social">
-				<a target="_blank" href="https://github.com/khaister"><i class="fab fa-github"></i></a>
-				<a target="_blank" href="https://www.linkedin.com/in/khainguyen"><i class="fab fa-linkedin"></i></a>
-				<a target="_blank" href="https://twitter.com/khaister"><i class="fab fa-twitter"></i></a>
-				<a target="_blank" href="https://medium.com/@khainguyen"><i class="fab fa-medium"></i></a>
-				<!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
-			</div>
-		</content>
+    <main>
+        <content>
+            <div class="intro">Hello, I'm Khai!</div>
+            <div class="tagline">Software Development Engineer</div>
 
-		<footer>
-			Design by <a target="_blank" href="https://github.com/flexdinesh/dev-landing-page">Dinesh Pandiyan</a>
-			<a title="View this page's source code" target="_blank" href="https://github.com/khaiatwork/khaiatwork.github.io">
-				<i class="fas fa-code-branch"></i>
-			</a>
-		</footer>
-	</main>
+            <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+            <div class="icons-social">
+                <a target="_blank" href="https://github.com/khaister"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/khainguyen"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://twitter.com/khaister"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://medium.com/@khainguyen"><i class="fab fa-medium"></i></a>
+            </div>
+        </content>
+
+        <footer>
+            Design by <a target="_blank" href="https://github.com/flexdinesh/dev-landing-page">Dinesh Pandiyan</a>
+            <a title="View this page's source code" target="_blank"
+                href="https://github.com/khaiatwork/khaiatwork.github.io">
+                <i class="fas fa-code-branch"></i>
+            </a>
+        </footer>
+    </main>
 </body>
 
 </html>
